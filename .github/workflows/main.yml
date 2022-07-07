@@ -31,7 +31,7 @@ jobs:
         with:
         version: 12
         
-         - name: action-yarn
+          name: action-yarn
            uses: comchangs/action-yarn@v2-beta
         with: 
         # yarn command
