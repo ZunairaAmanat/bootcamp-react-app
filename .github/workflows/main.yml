@@ -32,7 +32,7 @@ jobs:
         version: 12
         
          - name: action-yarn
-           uses: comchangs/action-yarn@v0.1-beta
+           uses: comchangs/action-yarn@v2-beta
         with: 
         # yarn command
         cmd: install
