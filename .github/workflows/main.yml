@@ -31,8 +31,8 @@ jobs:
         with:
         version: 12
         
-          name: action-yarn
-           uses: comchangs/action-yarn@v2-beta
+          - name: Yarn CLI
+            uses: CultureHQ/actions-yarn@v1.0.1
         with: 
         # yarn command
         cmd: install
